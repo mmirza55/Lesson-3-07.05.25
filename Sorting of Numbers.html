@@ -11,15 +11,15 @@
         <button onclick="descending"()>Descending order</button>
         <p id="result"></p>
         <script>
-            var pints = [40, 100, 1, 25, 10];
+            var points = [40, 100, 1, 5, 25, 10];
             document.getElementById("result").innerHTML = points;
             function ascending() {
-                points.sort(function(a, b{return a - b};
+                points.sort(function(a, b){return a - b});
                 document.getElementById("result").innerHTML = points;
                 
             }
             function descending() {
-                points.sort(function(a, b{return b - a};
+                points.sort(function(a, b){return b - a});
                 document.getElementById("result").innerHTML = points;
 
             }
